@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cetrix - Financial Solutions in Africa</title>
+
+  <!-- ========== GOOGLE FONTS ========== -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Unbounded:wght@200..900&display=swap" rel="stylesheet">
+
+  <!-- ========== FONT AWESOME ICONS ========== -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+
+  <!-- ========== EXTERNAL CSS ========== -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ===================== HEADER SECTION ===================== -->
+  <header>
+    <div class="container">
+      <div class="navbar">
+        <div class="mobile">
+            <div class="logo-bar">
+              <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+              </div>
+              <!-- Logo -->
+              <div class="logo">
+                <img src="./image/logo.png" alt="Cetrix Logo"/>
+              </div>
+            </div>
+
+            <div class="user">
+              <div class="menu-button" id="menuButton">
+              <i class="fas fa-user"></i>
+            </div>
+        </div>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav>
+          <ul class="nav-links" id="navLinks">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">Company</a></li>
+          </ul>
+        </nav>
+
+        <!-- Login & Register Buttons -->
+        <div class="nav-buttons" id="navButtons">
+          <a href="#" class="login-btn">Login</a>
+          <a href="#" class="register-btn">Register</a>
+        </div>
+
+        <!-- Mobile Menu Icon -->
+        
+
+      </div>
+    </div>
+
+    <!-- ===================== HERO SECTION ===================== -->
+    <section class="hero">
+      <div class="hero-text">
+
+        <!-- Hero Heading & Subtitle -->
+        <h1>Revolutionizing <br> Financial Solutions <br> In Africa</h1>
+        <p>A Reliable Fintech Solution for Money Exchange, Gift Card Conversion, and Utility Payments.</p>
+
+        <!-- CTA Button -->
+        <a href="#" class="get-started">
+          Get Started 
+          <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="#fff">
+            <path d="m256-240-56-56 384-384H240v-80h480v480h-80v-344L256-240Z"/>
+          </svg>
+        </a>
+
+        <!-- User Trust Section -->
+        <div class="trust">
+          <div class="avatars">
+            <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="User" class="avatar">
+            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="User" class="avatar">
+            <img src="https://randomuser.me/api/portraits/men/15.jpg" alt="User" class="avatar">
+            <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="User" class="avatar">
+            <img src="https://randomuser.me/api/portraits/men/83.jpg" alt="User" class="avatar">
+          </div>
+          <span><strong class="trust-count">300k+</strong> Verified Users</span>
+        </div>
+      </div>
+
+      <!-- Hero Image -->
+      <div class="hero-image">
+        <img src="./image/phoneMockupOne.png" alt="Mobile App Preview" class="phone"/>
+      </div>
+    </section>
+  </header>
+
+  <!-- ===================== MAIN SERVICES SECTION ===================== -->
+  <main>
+    <div class="main-body">
+
+      <!-- Section Title -->
+      <div class="main-content">
+        <p>Our Services</p>
+        <h2>Why you must choose cetrix</h2>
+      </div>
+
+      <!-- Gift Card Banner -->
+      <div class="main-banner">
+        <img src="./image/banner.png" alt="crypto">
+        <div class="banner-text">
+          <div class="banner-text-mini">
+            <h3>Gift Card Conversion</h3>
+            <p>Easily exchange between Naira, Kenya Shilling, and USD.Withdraw exchanged fund to localbank accounts in Nigeria and Kenya.</p>
+            <a href="">Learn More</a>
+          </div>
+          
+        </div>
+        
+      </div>
+
+      <!-- Exchange Section -->
+      <div class="main-text">
+        <div class="main-text-child">
+          <div class="child">
+            <img src="./image/banner2.jpg" alt="">
+          </div>
+          <div class="child-contain">
+            <div class="child-move">
+              <h3>Withdraw & Exchange</h3>
+              <p>Easily exchange between Naira, Kenya Shilling, and USD.Withdraw exchanged fund to localbank accounts in Nigeria and Kenya.</p>
+              <a href="#">Learn More</a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Utility Payment Section -->
+        <div class="utilityContainer" id="utilityContainer">
+          <h2>Pay utility Bills</h2>
+
+          <!-- Sliding Indicator -->
+          <div class="indicator"></div>
+
+          <!-- Utility Options -->
+          <div class="utility-bill">
+            <div class="bill-card active" onclick="setActive(this)">
+              <h3>Electricity Bills</h3>
+              <p>Quickly pay your electricity bills online and keep the lights on without hassle</p>
+            </div>
+
+            <div class="bill-card" onclick="setActive(this)">
+              <h3>Airtime & Data</h3>
+              <p>Instantly top up airtime and data to stay connected anytime, anywhere</p>
+            </div>
+
+            <div class="bill-card" onclick="setActive(this)">
+              <h3>Cable TV Subscription</h3>
+              <p>Easily renew your cable subscription online and never miss your favourite shows.</p>
+            </div>
+          </div>
+
+          <a href="#">Learn More</a>
+        </div>
+
+      </div>
+
+      <!-- Crypto Management Box -->
+      <div class="footer-main">
+        <div class="footer-context">
+          <h4>Crypto Management</h4>
+          <p>Buy, sell, swap, and exchange cryptocurrencies...</p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </div>
+      <!-- ===================== STEPS SECTION ===================== -->
+ <section class="contain">
+  <!-- FIRST BLOCK (Image Left - Text Right) -->
+  <div class="section-block">
+    <div class="left">
+      <img src="image/Mockup 2.png" class="phone-img" alt="App Screenshot">
+    </div>
+
+    <div class="right-text-box">
+      <div class="item">
+         <h2 class="title">Easy Steps to use Cetrix</h2>
+        
+        <h3>
+          <i class="fa-solid fa-arrow-right-to-bracket"></i> Sign Up 
+        </h3>
+        <p>Load https://www.cetrix.org in your browser, after <br> that you can create your Cetrix account and complete KYC verification.</p>
+      </div>
+
+      <div class="item">
+        <h3>
+          <i class="fa-solid fa-gift"></i> Gift Card Conversion Process
+        </h3>
+        <ul>
+          <li>Select Your Gift Card: Choose the brand and <br> value of the gift card you want to convert.</li>&nbsp;
+          <li>Provide the gift card information, including the code and amount.</li>&nbsp;
+          <li>Instantly receive cash in your account or digital wallet.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- SECOND BLOCK (Text Left - Image Right) -->
+  <div class="section-block">
+    <div class="left text-box">
+
+      <div class="item-02">
+        <h3>
+       <i class="fa-sharp fa-solid fa-dollar-sign"></i> Money Exchange Process
+        </h3>
+        <ul>
+          <li>Select the currencies you want to exchange from a list of available options.</li>&nbsp;
+          <li>Enter the amount you wish to convert and review the current exchange rate.</li>&nbsp;
+          <li>Confirm the transaction and receive the exchanged currency instantly in your account.</li>&nbsp;
+        </ul>
+      </div>
+
+      <div class="item-02">
+        <h3>
+          <i class="fa-thin fa-mobile"></i> Utility Bill Payment Process
+        </h3>
+        <ul>
+          <li>Select the type of utility bill you need to pay, such as electricity, water, or internet.</li>&nbsp;
+          <li>Provide the gift card information, including the code and amount.</li>&nbsp;
+          <li>Complete the payment securely with your preferred method.</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="right">
+      <img src="./image/Mockup 1.png" class="phone-img-01" alt="App Screenshot">
+    </div>
+  </div>
+<!-- </section> -->
+
+  <!-- ===================== TESTIMONIALS SECTION ===================== -->
+  <section class="testimonials">
+    <div class="test-list">
+      <h2 class="section-tit">Get to Know Our Clients</h2>
+
+      <div class="testimonials-grid">
+
+        <!-- Testimonial 1 -->
+        <div class="testimonial-card">
+          <p>Cetrix has transformed how I handle international payments...</p>
+          <div class="auth">
+            <img src="Image/wiz.jpg" alt="Adewole Semiru">
+            <div>
+              <div class="stars">★★★★★</div>
+              <strong>Adewole Semiru</strong>
+              <span>Freelancer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Highlighted Testimonial -->
+        <div class="testimonial-card highlighted">
+          <p>Cetrix has transformed how I handle international payments...</p>
+          <div class="auth">
+            <img src="Image/middle.png" alt="Richards Jane">
+            <div>
+              <div class="stars">★★★★★</div>
+              <strong>Richards Jane</strong>
+              <span>Marketer</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Testimonial 3 -->
+        <div class="testimonial-card">
+          <p>Design Monks offers producers a cost-effective selling tool...</p>
+          <div class="auth">
+            <img src="Image/end.png" alt="Thomas Laurel">
+            <div>
+              <div class="stars">★★★★★</div>
+              <strong>Thomas Laurel</strong>
+              <span>Freelancer</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- View More Button -->
+      <div class="view-more">
+        <button>View More <span>→</span></button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===================== SERVICE BANNER ===================== -->
+  <section class="service">
+    <div class="flex">
+
+      <!-- Service Text -->
+      <div class="hero-content">
+        <h1>Effortlessly manage<br><span>your Global payments</span><br>with Cetrix</h1>
+        <button class="cta-bt">Get Started</button>
+      </div>
+
+      <!-- Phone Image & Tags -->
+      <div class="service-image">
+        <img src="image/service image.png" alt="Cetrix App">
+        <div class="floating-tag secure">Secure Payment</div>
+        <div class="floating-tag rates">Competitive Rates</div>
+        <div class="floating-tag currencies">Multiple Currencies</div>
+      </div>
+    </div>
+  </section>
+  </main>
+
+
+
+  <!-- ===================== FOOTER ===================== -->
+  <footer class="foot">
+
+    <div class="container foot-grid">
+
+      <!-- Footer Logo & Info -->
+      <div class="foot-logo">
+        <img src="image/logo.png" alt="cetrix">
+        <p>Cetrix is designed to simplify currency<br> exchanges,gift card Conversions and utility payments and users in Nigeria, Kenya and beyond.</p>
+
+        <!-- Social Media Section -->
+        <div class="social-section">
+          <h2 class="social-title">Social Media</h2>
+          <div class="social-icons">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-x-twitter"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Footer Links -->
+      <div class="foot-col">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About</a></li>
+          <li><a href="#">FAQ</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Testimonial</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Product</h4>
+        <ul>
+          <li><a href="#">Currency Exchange</a></li>
+          <li><a href="#">Gift Card Conversion</a></li>
+          <li><a href="#">Pay Utility Bills</a></li>
+        </ul>
+      </div>
+
+      <div class="foot-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Cookies Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Info -->
+      <div class="foot-col contact">
+        <h4>Contact</h4>
+        <ul>
+          <li><i class="fa-solid fa-phone"></i> +234-123-456-7890</li>
+          <li><i class="fa-regular fa-envelope"></i> Support@cetrix.com</li>
+          <li><i class="fa-solid fa-map-pin"></i> Lagos, Nigeria</li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="foot-bottom">
+      <p>© 2024 Cetrix. All Rights Reserved</p>
+    </div>
+  </footer>
+
+
+  <!-- ===================== JAVASCRIPT ===================== -->
+  <script src="./scripts.js"></script>
+
+</body>
+</html>
