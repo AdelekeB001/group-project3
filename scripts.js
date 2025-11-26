@@ -15,9 +15,6 @@
 
     menuButton.addEventListener('click', () => {
       navButtons.classList.toggle('activer');
-      const icon = menuToggle.querySelector('i');
-      icon.classList.toggle('fa-bars');
-      icon.classList.toggle('fa-times');
     });
 
     // ===== Utility Bills Indicator =====

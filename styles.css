@@ -243,8 +243,17 @@ max-width: 550px;
   top: 100%;
   left: 0;
   width: 100%;
-  padding: 1rem 0;
+  font-size: 30px;
+  padding: 5rem 0;
   text-align: center;
+  font-family: "poppins", sans-serif;
+}
+.nav-links a {
+  padding: 1rem;
+  display: block;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  color: #fff;
 }
 
 .nav-buttons.activer {
@@ -266,8 +275,9 @@ max-width: 550px;
   top: 100%;
   left: 0;
   width: 100%;
-  padding: 1rem 0;
+  padding: 3rem 0;
   text-align: center;
+  font-size: 30px;
 }
 
 .nav-links.active {
@@ -277,6 +287,9 @@ max-width: 550px;
 .nav-links a {
   padding: 1rem;
   display: block;
+  font-weight: 500;
+  font-family: "poppins", sans-serif;
+  color: #fff;
 }
 
 .nav-buttons {
@@ -756,6 +769,8 @@ font-family: "unbounded", sans-serif;
   border: 1px solid hsla(261, 29%, 57%, 0.5);
   width: 1050px;
   background : hsla(261, 29%, 57%, 0.5);
+  opacity: 30px;
+  font-weight: 500;
   padding: 80px 70px 90px 70px;
   margin-left: -210px;
   height: auto;
@@ -778,7 +793,10 @@ font-family: "unbounded", sans-serif;
   .child-move p {
   font-size: 24px;
   padding: 40px 90px;
+  margin-bottom: 50px;
   color: black;
+  font-weight: 500;
+  opacity: 30px;
   text-align: center;
   }
   .banner-text h3 {
@@ -873,8 +891,13 @@ padding-left: 20px;
 /* RESPONSIVE */
 @media (max-width: 900px) {
 .section-block {
-flex-direction: column;
+flex-direction: row;
 text-align: left;
+
+}
+.right-text-box{
+  margin-top: 8em;
+  margin-left: 5em;
 }
 
 .phone-img {
